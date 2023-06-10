@@ -3,9 +3,62 @@
 }
 body{
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
 }
 .baner{
     width: 100%;
-    height: 100px;
+    height: 150px;
+    padding-top: 20px;
     text-align: center;
+    background-color: rgb(117, 8, 8);
+    color: white;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    margin: 0;
+    color: white;
+    position: relative;
+    margin: auto;
+    background-color: rgb(12, 82, 12);
+}
+li{
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    cursor: pointer;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-size: 18px;
+    z-index: 9;
+}
+.active a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    z-index: 9;
 }
