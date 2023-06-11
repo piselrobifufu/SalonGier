@@ -1,9 +1,12 @@
 #h2krupier{
     margin-top: 0;
     text-align: center;
+    color: white;
 }
 .content{
     padding-top: 40px;
+    min-height: 900px;
+    text-align: center;
 }
 #krupierkarty{
     text-align: center;
@@ -17,6 +20,21 @@
     margin:5px;
 }
 #h2ty{
+    color: white;
     text-align: center;
 }
-
+#dealer-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+#your-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+#wynik{
+    font-weight: bold;
+    font-size: 38px;
+    color:white;
+}
