@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackjack</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="ox.css">
 </head>
 <body>
     <ul class="menu">
@@ -18,10 +19,25 @@
         <h1>Kółko i krzyżyk</h1>
     </div>
     <div class="content">
-
+        <div id="gameContainer">
+            <div id="cellContainer">
+                <div cellIndex="0" class="cell"></div>
+                <div cellIndex="1" class="cell"></div>
+                <div cellIndex="2" class="cell"></div>
+                <div cellIndex="3" class="cell"></div>
+                <div cellIndex="4" class="cell"></div>
+                <div cellIndex="5" class="cell"></div>
+                <div cellIndex="6" class="cell"></div>
+                <div cellIndex="7" class="cell"></div>
+                <div cellIndex="8" class="cell"></div>
+            </div>
+            <h2 id="statusText"></h2>
+            <button id="restartBtn">Restart</button>
+        </div>
     </div>
     <div class="footer">
         <p><span class="pogrub">Strona zrobiona przez:</span><br><span class="highlighted">Kacper P.</span> <span class="highlighted">Kacper N.</span> <span class="highlighted">Rafał S.</span></p>
     </div>
+    <script src="ox.js"></script>
 </body>
 </html>
