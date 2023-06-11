@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackjack</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="bj.css">
+    <script src="bj.js"></script>
 </head>
 <body>
     <ul class="menu">
@@ -18,7 +20,21 @@
         <h1>Blackjack</h1>
     </div>
     <div class="content">
+        <h2 id="h2krupier">Karty krupiera: <span id="krupierreka"></span></h2>
+        <div id="krupierkarty">
+            <img id="hidden" src="img/karty/BACK.png">
+        </div>
 
+        <h2 id="h2ty">Twoje karty: <span id="twojareka"></span></h2>
+        <div id="twojekarty">
+            
+        </div>
+        <center>
+            <button id="hit">Hit</button>
+            <button id="stand">Stand</button>
+            <p id="wynik"></p>
+        </center>
+        
     </div>
     <div class="footer">
         <p><span class="pogrub">Strona zrobiona przez:</span><br><span class="highlighted">Kacper P.</span> <span class="highlighted">Kacper N.</span> <span class="highlighted">Rafał S.</span></p>

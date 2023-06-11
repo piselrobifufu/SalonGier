@@ -1,0 +1,22 @@
+#h2krupier{
+    margin-top: 0;
+    text-align: center;
+}
+.content{
+    padding-top: 40px;
+}
+#krupierkarty{
+    text-align: center;
+}
+#krupierkarty img{
+    height:200px;
+    margin:5px;
+}
+#twojekarty img{
+    height:200px;
+    margin:5px;
+}
+#h2ty{
+    text-align: center;
+}
+
