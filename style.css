@@ -11,7 +11,7 @@ body{
     height: 150px;
     padding-top: 20px;
     text-align: center;
-    background-color: #317A86;
+    background-color: #101126;
     color: white;
 }
 .menu{
@@ -77,6 +77,16 @@ a{
     width: 100%;
     padding-top: 100px;
     min-height: 700px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#cos{
+    font-size: 24px;
+}
+#cos2{
+    font-size: 28px;
+    color: red;
+    font-weight: bolder;
 }
 
 .pogrub{
@@ -86,4 +96,10 @@ a{
     color: wheat;
     font-weight: 1000;
     cursor: pointer;
+}
+#highlighted{
+    color: gold;
+}
+#id{
+    color: goldenrod;
 }
