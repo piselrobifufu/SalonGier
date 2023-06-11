@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ruletka</title>
-    <link rel="icon" type="image/png" href="/img/ikony/bjikona.png">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="rull.css">
 </head>
 <body>
     <ul class="menu">
         <li><a href="../blackjack/bj.html">Blackjack</a></li>
         <li class="active"><a href="../ruletka/rull.html">Ruletka</a></li>
         <li><a href="../kolkoikrzyzyk/ox.html">Kółko i krzyżyk</a></li>
-        <li><a href="../index.html">Stona główna</a></li>
+        <li><a href="../index.html">Strona główna</a></li>
     </ul>
     <div class="baner">
         <h1>Ruletka</h1>
     </div>
     <div class="content">
-
+        <h1 id="wynik"></h1>
+        <div class="gra">
+            <img class="strzalka" src="img/strzalka.png">
+            <img class="kolo" src="img/kolo.png">
+            <fieldset>
+                <legend>Wybierz kolor: </legend>
+                <input type="radio" id="czerwony" name="kolory" checked="checked">
+                <label for="czerwony">Czerwony</label>
+                <input type="radio" id="czarny" name="kolory">
+                <label for="czarny">Czarny</label>
+                <input type="radio" id="zielony" name="kolory">
+                <label for="zielony">Zielony</label>
+            </fieldset>
+            <button class="btSpin" type="button">Zakręć!</button>
+        </div>
     </div>
     <div class="footer">
         <p><span class="pogrub">Strona zrobiona przez:</span><br><span class="highlighted">Kacper P.</span> <span class="highlighted">Kacper N.</span> <span class="highlighted">Rafał S.</span></p>
     </div>
+
 </body>
+<script src="rull.js"></script>
 </html>

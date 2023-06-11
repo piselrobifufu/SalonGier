@@ -1,0 +1,56 @@
+.content{
+    min-height: 1000px;
+}
+.gra{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+#wynik{
+    font-size: 46px;
+    color: white;
+    text-align: center;
+
+}
+.strzalka{
+    position: absolute;
+    width: 50px;
+    left: 178px;
+    top: -20px;
+    z-index: 3; 
+}
+.kolo{
+    width: 100%;
+    height: 100%;
+}
+.btSpin{
+    position: absolute;
+    left: 168px;
+    top: 480px;
+    cursor: pointer;
+}
+.black{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+}
+.red{
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+}
+.green{
+    background-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+  }
